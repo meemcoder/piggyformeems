@@ -1,0 +1,42 @@
+ html{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5; box-sizing: border-box; border: 0 solid #e2e8f0; display: block;
+    color: -internal-root-color;
+ }
+ #root {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .div3{
+    background-color: #062863; padding-top: 3rem;
+      padding-bottom: 3rem; overflow: auto; min-height: 100vh; align-items: center; flex-direction: column; display: flex; 
+  }
+  .div2{
+    padding-bottom: 3rem; padding: 2.5rem; width: 91.666667%; max-width: 28rem; border-bottom-right-radius: 1.25rem; border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem; background-color: #fff; 
+  }
+  ,.header{
+    margin-bottom: 2rem; align-items: center; flex-direction: column; display: flex;
+  }
+  .form{
+    overflow-y: auto; min-height: min-content; margin-top: 2rem; margin-bottom: 0; flex: 1 1; flex-direction: column; display: flex; 
+  }
+  .div1{
+    position: relative; margin-bottom: 2rem; flex-direction: column; display: flex;
+  }
+  .label{
+    font-size: .75rem; color: #4a5568; margin-bottom: .25rem; line-height: 2; font-weight: 700; font-family: U8,sans-serif; cursor: default;
+}
+.input{
+    padding-left: 1rem; padding-right: 1rem; padding-top: 1rem; padding-bottom: 1rem; color: #1a202c; border-radius: .25rem; color: #1a202c; overflow: visible; 
+}
+.button{
+    background-color: rgb(8, 62, 158); font-size: .875rem; flex-direction: row; width: 100%; color: #fff; padding-top: 1.25rem; padding-left: 2.5rem; padding-right: 2.5rem; font-weight: 700; align-items: center; display: flex;
+}
+.submit{
+    flex: 1 1; align-items: flex-end; display: flex; border: 0 solid #e2e8f0;
+}
+
+  
